@@ -1,0 +1,78 @@
+Capture the flag:
+- what is a CTF
+- CTF Challenges
+- Cryptography
+- Adv. Crypto.
+- Practice~
+- CTF Resources
+
+=====================================================================
+What is a CTF?
+- Timed Competition
+- Allows anyone to practice cybersecurity skills
+- "Solved" by finding a flag
+  * e.g. reversing a program
+  * exploiting something
+  * finding text
+
+Types of CTF Challenges:
+- Log analysis e.g. Splunk for good
+- Network analysis: e.g. traces of packets
+- Exploitation
+- Password Cracking
+- Scanning
+- Open Source Intelligence
+- Cryptography
+
+=====================================================================
+Cryptography:
+A send messages to B without anyone else figuring the message out.
+i.e. privacy.
+
+Alice -----eve----> Bob
+
+Alice to Bob without eve being able to figure out what message it is.
+
+Application: Given ciphertext (encrypted), 
+find plaintext (original message).
+
+E.g. rotation cipher/Caesar Cipher: 
+ROT13 A <--> N, B <--> O etc.... M <--> Z
+
+...
+ROT-N cipher. 
+
+E.g. Technica = GVXSMRXZ.
+
+=====================================================================
+Practice:
+1) uryyb jbeya
+
+ROT13:
+hello world
+
+2) we juhfi
+Go terbs
+Rotation by 16
+
+3) yzxpdziwh rh uilmgdziwh
+backwards is frontwards
+Atbash
+
+4) ufyhdi oe rcj
+After atbash:
+fubswr lv ixq
+rotate:
+crypto is fun
+
+=====================================================================
+
+With computers, such ciphers are trivial. There aren't many to check.
+So how can we make this more complex?
+
+Choose each letter, randomly choose another alphabet/symbols to 
+substitute. 
+
+Rotation and Atbash are subsets of substitution. 
+E.g. A - X; B - F etc. No seeming orders. 
+

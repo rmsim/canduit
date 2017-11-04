@@ -1,0 +1,10 @@
+Challenge 1: There are a bunch of letters here so you can figure out the answer to the challenges! The flag is: flag{congrats_your_first_challenge} 
+Challenge 2: rot13(flag{easy_challenge_right?})
+Challenge 3: rot24(flag{how_many_tries_did_this_take})
+Challenge 4: atbash(flag{five_down})
+Challenge 5: atbash(rot4(flag{double_whammy}))
+Challenge 6: hex(flag{this_is_a_boring_one})
+Challenge 7: bin(flag{binary_makes_long_codes!})
+Challenge 8: hex(bin(flag{this_makes_longer_codes}))
+Challenge 9: b64(flag{base64_is_useful})
+Challenge 10: b32(flag{I'm_really_bad_with_ideas})
