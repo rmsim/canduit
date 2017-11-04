@@ -1,2 +1,2 @@
-# canduit
-Technica 2017!
+# CANduit
+Building aid pipelines from cities to cities
