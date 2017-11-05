@@ -1,27 +1,56 @@
-body{ 
-background-color: #ffffb3;
- }
-
-.jumbotron-fluid{
-	background-color: #ffffb3;
+body{
+  background-color: #ffffb3;
 }
-
 
 .navbar-dark .navbar-nav .nav-link{
-	color: black;
+  color: black;
 }
 
-
 .navbar-dark .navbar-brand{
-	color: black;
-	font-size:1.5em;
+  color: black;
+  font-size:1.5em;
 }
 
 .bg-dark{
-	background-color: #F9F581!important
+  background-color: #F9F581!important
 }
 
 .logo{
-	width: 40px;
-	margin-right: 7px;
+  width: 40px;
+  margin-right: 7px;
+}
+
+.headline {
+  font-family: 'Lobster Two', serif;
+}
+
+body {
+  padding-top: 1em;
+}
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("gif.gif");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
