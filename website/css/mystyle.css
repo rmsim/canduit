@@ -11,6 +11,17 @@ background-color: #ffffb3;
 	color: black;
 }
 
+
+.navbar-dark .navbar-brand{
+	color: black;
+	font-size:1.5em;
+}
+
 .bg-dark{
 	background-color: #F9F581!important
+}
+
+.logo{
+	width: 40px;
+	margin-right: 7px;
 }
