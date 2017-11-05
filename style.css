@@ -1,0 +1,40 @@
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #F9F581;
+}
+
+h3, p {
+  float: none;
+
+}
+
+.box {
+  float: left;
+  margin-left: 50px;
+  padding-left: auto;
+  border-style: solid;
+  border-color: orange;
+  width: 15%;
+}
+
+.box:hover {
+  border-style: double;
+  border-color: green;
+}
+
+#progressbar {
+  background-color: gray;
+  border-radius: 13px; /* (height of inner div) / 2 + padding */
+  padding: 3px;
+}
+
+#progressbar > div {
+   background-color: green;
+   width: 60%; /* Adjust with JavaScript */
+   height: 20px;
+   border-radius: 10px;
+}
