@@ -21,7 +21,7 @@ def q1():
     text_value = request.values["Body"]
 
     key = request.values["From"]
-
+ 
     if key not in userStates:
         userStates[key] = 0
         state = userStates[key]
