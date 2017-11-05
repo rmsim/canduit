@@ -1,7 +1,16 @@
 body{ 
-background-color: #F9F581;
+background-color: #ffffb3;
  }
 
 .jumbotron-fluid{
-	background-color: #F9F581;
+	background-color: #ffffb3;
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+	color: black;
+}
+
+.bg-dark{
+	background-color: #F9F581!important
 }
